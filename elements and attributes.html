@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Useful HTML tags and their attributes</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.fa {
+  padding: 10px;
+  font-size: 15px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+.fa-email {
+  background: #ff6600;
+  color: white;
+}
+.btn {
+  border: 2px;
+  border-radius: 5px;
+  background-color: gray;
+  color: white;
+  padding: 18px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 200px;
+          overflow: hidden;
+  float: right;     }
+
+.colors {background-color: #e7e7e7; color: black; position: absolute;
+  left: 30px;
+  top: 300px}
+.colors:hover {background-color: black; color: white;}
+
+.Basic {background-color: #e7e7e7; color: black; position: absolute;
+  left: 30px;
+  top: 360px }
+.Basic:hover {background: black; color: white;}
+
+.Forms {background-color: #e7e7e7; color: black;position: absolute;
+  left: 30px;
+  top: 420px}
+.Forms:hover {background: black; color: white;}
+
+.Entities {background-color: #e7e7e7; color: black; position: absolute;
+  left: 30px;
+  top: 480px }
+.Entities:hover {background: black; color: white;}
+
+.Id {background-color: #e7e7e7; color: black;position: absolute;
+  left: 30px;
+  top: 540px}
+.Id:hover {background: black; color: white;}
+a { color: inherit; }
+
+  body {font-family: candara ; font-size: 15px; font-weight: bold;}
+  table {
+           width: 800px;
+           border-collapse: collapse;
+       }
+       table, th, td {
+           border: 1px solid black;
+       }
+
+
+</style>
+</head>
+  <body>
+    <h1><font face="comic sans ms"><font color="lightblue">Useful HTML tags and their attributes</font></h1>
+    <p><font face="arial"><font size="3"><a href="mailto:bimandibosilu@gmail.com"><a style="text-decoration:none" href="mailto:bimandibosilu@gmail.com"><b>by Bimandi Bosilu</a></font></p>
+
+         <!-- Add font awesome icons -->
+         <a href="#" class="fa fa-google"></a>
+         <a href="#" class="fa fa-linkedin"></a>
+         <a href="#" class="fa fa-rss"></a><br><br>
+
+         <button class="btn colors" ><a href="https://www.w3schools.com/html/html_colors.asp" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/html/html_colors.asp" target="_blank">colors</a></button>
+         <button class="btn Basic" ><a href="https://www.w3schools.com/html/html_basic.asp" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/html/html_basic.asp" target="_blank">Basic</a></button>
+         <button class="btn Forms"><a href="https://www.w3schools.com/html/html_forms.asp" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/html/html_forms.asp" target="_blank">Forms</a></button>
+         <button class="btn Entities"><a href="https://www.w3schools.com/html/html_entities.asp" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/html/html_entities.asp" target="_blank">Entities</a></button>
+         <button class="btn Id"><a href="https://www.w3schools.com/html/html_id.asp" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/html/html_id.asp" target="_blank">Id</a></button>
+<img src="https://geekflare.com/wp-content/uploads/2021/07/real-time-html-editor-1200x385.png" align="top" width="1500" target="_blank">
+    <h2 align="center"><font face="candara" >Use this reference page to identify various HTML tags</font></h2>
+
+    <tr>
+  <table cellpadding = "10" width="30" height="35" align ="center">
+
+      <th colspan="2" align="left"><a href="https://www.w3schools.com/tags/tag_body.asp" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/tag_body.asp" target="_blank">Body tag and attributes</a></th>
+    </tr>
+    <tr>
+     <td style="color:gray"><b>&lt;BODY&gt;</td>
+     <td style="color:darkblue">Contains the viewed portion of the document</td>
+    </tr>
+    <tr>
+     <td style="color:gray"> <a href="https://www.w3schools.com/tags/tag_body.asp#:~:text=Set%20the%20background%20color%20of%20a%20document%20(with%20CSS)" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/tag_body.asp#:~:text=Set%20the%20background%20color%20of%20a%20document%20(with%20CSS)" target="_blank">
+       <b>&lt;BODY bgcolor="color"&gt;</a></td>
+     <td style="color:darkblue">Sets the color of the background in hexadecimal code</td>
+    </tr>
+    <tr>
+     <td style="color:gray"><a href="https://www.w3schools.com/tags/tag_body.asp#:~:text=Add%20a%20background%20image%20to%20a%20document%20(with%20CSS)%3A" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/tag_body.asp#:~:text=Add%20a%20background%20image%20to%20a%20document%20(with%20CSS)%3A" target="_blank"><b>&lt;BODY background="filename.xxx"&gt;</td>
+       <td style="color:darkblue">Sets an image as a page's background (wallpaper)</a></td>
+       </tr>
+       <tr>
+     <td style="color:gray"><a href="https://www.w3schools.com/tags/tag_body.asp#:~:text=Set%20the%20color%20of%20text%20in%20a%20document%20(with%20CSS)%3A" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/tag_body.asp#:~:text=Set%20the%20color%20of%20text%20in%20a%20document%20(with%20CSS)%3A" target="_blank"><b>&lt;BODY text="color"&gt;</td>
+       <td style="color:darkblue">Contains the viewed portion of the document</a></td>
+       </tr>
+       <tr>
+     <td style="color:gray"><a href="https://www.w3schools.com/tags/tag_body.asp#:~:text=Set%20the%20color%20of%20active%20links%20in%20a%20document%20(with%20CSS)%3A" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/tag_body.asp#:~:text=Set%20the%20color%20of%20active%20links%20in%20a%20document%20(with%20CSS)%3A" target="_blank"><b>&lt;BODY link="color"&gt;</td>
+     <td style="color:darkblue">Specifies the default color of unvisited links in hexadecimal code</a></td>
+  </tr>
+<tr>
+  <td><br></td>
+</tr>
+<tr>
+  <th colspan="2" align="left"><a href="https://www.educba.com/font-tag-in-html/" target="_blank"><a style="text-decoration:none" href="https://www.educba.com/font-tag-in-html/" target="_blank">Font tag and attributes</a></th>
+</tr>
+<tr>
+  <td style="color:gray"><b>&lt;FONT&gt;...&lt;&sol;FONT&gt;</td>
+  <td style="color:darkblue">Changes font attributes for text within the tags</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.w3schools.com/tags/tag_font.asp#:~:text=Set%20the%20size%20of%20text%20(with%20CSS)%3A" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/tag_font.asp#:~:text=Set%20the%20size%20of%20text%20(with%20CSS)%3A" target="_blank"><b>&lt;FONT size = "value"&gt; ... &lt;&sol;FONT&gt;</a></td>
+  <td style="color:darkblue">Sets the font to a size from 1 to 7, with 1 the smallest and 7 the largest</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.w3schools.com/tags/tag_font.asp#:~:text=Set%20the%20font%20of%20text%20(with%20CSS)%3A" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/tag_font.asp#:~:text=Set%20the%20font%20of%20text%20(with%20CSS)%3A" target="_blank"><b>&lt;FONT face = "name"&gt; ... &lt;&sol;FONT&gt;</a></td>
+  <td style="color:darkblue">Sets the font face</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.w3schools.com/tags/tag_font.asp#:~:text=Set%20the%20color%20of%20text%20(with%20CSS)%3A" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/tag_font.asp#:~:text=Set%20the%20color%20of%20text%20(with%20CSS)%3A" target="_blank"><b>&lt;FONT color = "color"&gt; ... &lt;&sol;FONT&gt;</a></td>
+  <td style="color:darkblue">Sets the font color using hexadecimal code</td>
+</tr>
+<tr>
+  <td><br></td>
+</tr>
+<tr>
+  <th colspan="2" align="left"><a href="https://www.w3schools.com/tags/tag_img.asp" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/tag_img.asp" target="_blank">Image tag and attributes</a></th>
+</tr>
+<tr>
+  <td style="color:gray"><b>&lt;IMG&gt;</td>
+  <td style="color:darkblue">Embeds an image in the document at the location of the tag</td>
+</tr>
+<tr>
+  <td style="color:gray"><b>&lt;IMG src="url" alt="text"&gt;</a></td>
+  <td style="color:darkblue">Adds an image with a text description</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.w3schools.com/tags/tag_img.asp#:~:text=Align%20image%20(with%20CSS)" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/tag_img.asp#:~:text=Align%20image%20(with%20CSS)" target="_blank"><b>&lt;IMG src="url" alt="text" align="direction"&gt;</a></td>
+
+  <td style="color:darkblue">Aligns an image to the left, right, center, bottom, or top</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.w3schools.com/tags/tag_img.asp#:~:text=Add%20image%20border%20(with%20CSS)%3A" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/tag_img.asp#:~:text=Add%20image%20border%20(with%20CSS)%3A" target="_blank"><b>&lt;IMG src="url" alt="text" border="number"&gt;</a></td>
+  <td style="color:darkblue">Sets the size of the border around an image</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.w3schools.com/tags/tag_img.asp#:~:text=How%20to%20add%20a%20hyperlink%20to%20an%20image%3A" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/tag_img.asp#:~:text=How%20to%20add%20a%20hyperlink%20to%20an%20image%3A" target="_blank"><b>&lt;IMG src="url" alt="text" height="pixels"&gt;</a>/td>
+  <td style="color:darkblue">Sets the height of an image</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.w3schools.com/tags/tag_img.asp#:~:text=How%20to%20add%20a%20hyperlink%20to%20an%20image%3A" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/tag_img.asp#:~:text=How%20to%20add%20a%20hyperlink%20to%20an%20image%3A" target="_blank"><b>&lt;IMG src="url" alt="text" width="pixels"&gt;</a></td>
+  <td style="color:darkblue">Sets the width of an image</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.w3schools.com/tags/tag_img.asp#:~:text=Add%20top%20and%20bottom%20margins%20to%20image%20(with%20CSS)%3A" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/tag_img.asp#:~:text=Add%20top%20and%20bottom%20margins%20to%20image%20(with%20CSS)%3A" target="_blank"><b>&lt;IMG src="url" alt="text" hspace="pixels"&gt;</a></td>
+  <td style="color:darkblue">Sets a horizontal margin to be placed around an image</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.w3schools.com/tags/tag_img.asp#:~:text=Add%20top%20and%20bottom%20margins%20to%20image%20(with%20CSS)%3A" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/tag_img.asp#:~:text=Add%20top%20and%20bottom%20margins%20to%20image%20(with%20CSS)%3A" target="_blank"><b>&lt;IMG src="url" alt="text" vspace="pixels"&gt;</a></td>
+  <td style="color:darkblue">Sets a vertical margin to be placed around an image</td>
+</tr>
+<tr>
+  <td><br></td>
+</tr>
+<tr>
+  <th colspan="2" align="left"><a href="https://www.w3schools.com/tags/tag_a.asp" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/tag_a.asp" target="_blank">Anchor tag and attributes</a></th>
+</tr>
+<tr>
+  <td style="color:gray"><b>&lt;A&gt;...&lt;&sol;A&gt;</td>
+  <td style="color:darkblue">Designates the origin and destination of a hyperlink</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.w3schools.com/tags/att_a_href.asp#:~:text=Yes-,Syntax,-%3Ca%20href%3D%22URL" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/att_a_href.asp#:~:text=Yes-,Syntax,-%3Ca%20href%3D%22URL" target="_blank"><b>&lt;A HREF="url"&gt...&lt;&sol;A&gt;</a></td>
+  <td style="color:darkblue">Creates a hyperlink</td>
+</tr>
+<tr>
+  <td style="color:gray"><b>&lt;A HREF="&num;NAME"&gt...&lt;&sol;A&gt;</td>
+  <td style="color:darkblue">Links to a target location in the current page</td>
+</tr>
+<tr>
+  <td><br></td>
+</tr>
+<tr>
+  <th colspan="2" align="left"><a href="https://www.tutorialspoint.com/html/html_table_tag.htm" target="_blank"><a style="text-decoration:none" href="https://www.tutorialspoint.com/html/html_table_tag.htm" target="_blank">
+    <b>Table tags and attributes</a></th>
+</tr>
+<tr>
+  <td style="color:gray"><b>&lt;TABLE&gt;...&lt;&sol;TABLE&gt;</td>
+  <td style="color:darkblue">Generates a table</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.w3schools.com/tags/tag_a.asp" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/tag_a.asp" target="_blank"><b>&lt;TABLE border="pixels"&gt;</a></td>
+  <td style="color:darkblue">Sets the size of cell borders</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.w3schools.com/tags/tag_a.asp" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/tag_a.asp" target="_blank"><b>&lt;TABLE cellspacing="pixels"&gt;</a></td>
+  <td style="color:darkblue">Sets the amount of space between cells</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.w3schools.com/tags/tag_table.asp#:~:text=How%20to%20add%20padding%20to%20a%20table%20(with%20CSS)%3A" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/tag_table.asp#:~:text=How%20to%20add%20padding%20to%20a%20table%20(with%20CSS)%3A" target="_blank"><b>&lt;TABLE cellpadding="pixels"&gt;</a></td>
+    <td style="color:darkblue">Sets the amount of space between a border and cell content</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.w3schools.com/tags/tag_table.asp#:~:text=How%20to%20set%20table%20width%20(with%20CSS)%3A" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/tag_table.asp#:~:text=How%20to%20set%20table%20width%20(with%20CSS)%3A" target="_blank"><b>&lt;TABLE height="pixels" or "%"&gt;</a></td>
+  <td style="color:darkblue">Sets the height of the table</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.w3schools.com/tags/tag_table.asp#:~:text=How%20to%20set%20table%20width%20(with%20CSS)%3A" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/tag_table.asp#:~:text=How%20to%20set%20table%20width%20(with%20CSS)%3A" target="_blank"><b>&lt;TABLE width="pixels" or "%"&gt;</a></td>
+    <td style="color:darkblue">Sets the width of the table</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.w3schools.com/tags/tag_td.asp" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/tag_td.asp" target="_blank"><b>&lt;TD&gt;...&lt;&sol;TD&gt;</a></td>
+    <td style="color:darkblue">Defines a table data cell</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.w3schools.com/tags/tag_table.asp#:~:text=How%20to%20define%20table%20cells%20that%20span%20more%20than%20one%20row%20or%20one%20column%3A" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/tag_table.asp#:~:text=How%20to%20define%20table%20cells%20that%20span%20more%20than%20one%20row%20or%20one%20column%3A" target="_blank"><b>&lt;TD colspan="columns"&gt;</a></td>
+    <td style="color:darkblue">Sets a cell to span columns</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.w3schools.com/tags/tag_table.asp#:~:text=How%20to%20define%20table%20cells%20that%20span%20more%20than%20one%20row%20or%20one%20column%3A" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/tag_table.asp#:~:text=How%20to%20define%20table%20cells%20that%20span%20more%20than%20one%20row%20or%20one%20column%3A" target="_blank"><b>&lt;TD rowspan="rows"&gt;</a></td>
+    <td style="color:darkblue">Sets a cell to span rows</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.w3schools.com/tags/tag_table.asp#:~:text=How%20to%20create%20table%20headers%3A" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/tag_table.asp#:~:text=How%20to%20create%20table%20headers%3A" target="_blank"><b>&lt;TH&gt;...&lt;&sol;TH&gt;</a></td>
+  <td style="color:darkblue">Defines a table header with bold,centered table data</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.w3schools.com/tags/tag_tr.asp" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/tag_tr.asp" target="_blank"><b>&lt;TR&gt;...&lt;&sol;TR&gt;</a></td>
+    <td style="color:darkblue">Defines a table row</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.w3schools.com/tags/tag_a.asp" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/tag_a.asp" target="_blank"><b>&lt;TR aligns="?"&gt; or &lt;TD aligns="?"&gt;</a></td>
+    <td style="color:darkblue">Aligns the contents of a row or cell tp the left, right, or center</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.w3schools.com/tags/tag_a.asp" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/tag_a.asp" target="_blank"><b>&lt;TR valign="?"&gt; or &lt;TD valign="?"&gt;</a></td>
+    <td style="color:darkblue">Sets the verrtical alignment of a row or cell to the top, middle, or bottom</td>
+</tr>
+<tr>
+  <td><br></td>
+</tr>
+<tr>
+  <th colspan="2" align="left"><a href="https://www.tutorialspoint.com/html/html_frames.htm" target="_blank"><a style="text-decoration:none" href="https://www.tutorialspoint.com/html/html_frames.htm" target="_blank">Frame tags and attributes </a></th>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.w3schools.com/tags/tag_frameset.asp" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/tag_frameset.asp" target="_blank"><b>&lt;FRAMESET&gt;...&lt;&sol;FRAMESET&gt;</a></td>
+    <td style="color:darkblue">Specifies the layout of subsections in the main browser window</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.tutorialspoint.com/html/html_frames.htm" target="_blank"><a style="text-decoration:none" href="https://www.tutorialspoint.com/html/html_frames.htm" target="_blank"><b>&lt;FRAMESET rows="value,value"&gt;</a></td>
+    <td style="color:darkblue">Defines the rowss within a frameset</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.tutorialspoint.com/html/html_frames.htm" target="_blank"><a style="text-decoration:none" href="https://www.tutorialspoint.com/html/html_frames.htm" target="_blank"><b>&lt;FRAMESET cols="value,value"&gt;</a></td>
+    <td style="color:darkblue">Defines the columns within a frameset</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.tutorialspoint.com/html/html_frames.htm" target="_blank"><a style="text-decoration:none" href="https://www.tutorialspoint.com/html/html_frames.htm" target="_blank"><b>&lt;NOFRAMES&gt;...&lt;&sol;NOFRAMES&gt;</a></td>
+    <td style="color:darkblue">Provides alternate content for browsers that do not support frames</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.tutorialspoint.com/html/html_frames.htm" target="_blank"><a style="text-decoration:none" href="https://www.tutorialspoint.com/html/html_frames.htm" target="_blank"><b>&lt;FRAME src="?"&gt;</a></td>
+    <td style="color:darkblue">Defines the appearance and content of a single frame</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.tutorialspoint.com/html/html_frames.htm" target="_blank"><a style="text-decoration:none" href="https://www.tutorialspoint.com/html/html_frames.htm" target="_blank"><b>&lt;FRAME name="name"&gt;</a></td>
+    <td style="color:darkblue">Labels the frame for targetting by other frames</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.tutorialspoint.com/html/html_frames.htm" target="_blank"><a style="text-decoration:none" href="https://www.tutorialspoint.com/html/html_frames.htm" target="_blank"><b>&lt;FRAME marginwidth="#"&gt;</a></td>
+    <td style="color:darkblue">Sets the margin widdth of a frame</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.tutorialspoint.com/html/html_frames.htm" target="_blank"><a style="text-decoration:none" href="https://www.tutorialspoint.com/html/html_frames.htm" target="_blank"><b>&lt;FRAME marginheight="#"&gt;</a></td>
+    <td style="color:darkblue">Sets the margin height of a frame</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.tutorialspoint.com/html/html_frames.htm" target="_blank"><a style="text-decoration:none" href="https://www.tutorialspoint.com/html/html_frames.htm" target="_blank"><b>&lt;FRAME scrolling="value"&gt;</a></td>
+    <td style="color:darkblue">Creates a frame scrollbar</td>
+</tr>
+<tr>
+  <td><br></td>
+</tr>
+<tr>
+  <th colspan="2" align="left"><a href="https://www.tutorialspoint.com/html/html_form_tag.htm" target="_blank"><a style="text-decoration:none" href="https://www.tutorialspoint.com/html/html_form_tag.htm" target="_blank">Form tags and attributes</a></th>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.tutorialspoint.com/html/html_form_tag.htm" target="_blank"><a style="text-decoration:none" href="https://www.tutorialspoint.com/html/html_form_tag.htm" target="_blank"><b>&lt;FORM&gt;...&lt;&sol;FROM&gt;</a></td>
+    <td style="color:darkblue">Generates a container for all form elements</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.w3schools.com/tags/att_form_action.asp" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/att_form_action.asp" target="_blank"><b>&lt;FORM action="url"&gt;</a></td>
+    <td style="color:darkblue">Designates the path of the script to process input from the form</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.w3schools.com/tags/att_form_method.asp" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/att_form_method.asp" target="_blank"><B>&lt;FORM method="get|post"&gt;</a></td>
+    <td style="color:darkblue">Instructs the browser how to interact with the form URL</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.w3schools.com/tags/tag_option.asp" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/tag_option.asp" target="_blank"><B>&lt;OPTION&gt;</a></td>
+    <td style="color:darkblue">Defines each menu item</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.w3schools.com/tags/tag_select.asp" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/tag_select.asp" target="_blank"><b>&lt;SELECT  name="name"&gt;...&lt;&sol;SELECT&gt;</a></td>
+    <td style="color:darkblue">Generates a pull-down menu</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.w3schools.com/tags/att_input_type_checkbox.asp" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/att_input_type_checkbox.asp" target="_blank"><b>&lt;INPUT type="checkbox"&gt;</a></td>
+  <td style="color:darkblue">Generates a checck box</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.w3schools.com/tags/att_input_type_hidden.asp" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/att_input_type_hidden.asp" target="_blank"><B>&lt;INPUT type="hidden"&gt;</a></td>
+    <td style="color:darkblue">Concealss a field from view</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.w3schools.com/tags/att_input_type_image.asp" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/att_input_type_password.asp" target="_blank"><B>&lt;INPUT type="image"&gt;</a></td>
+    <td style="color:darkblue">Generates an image that acts like a Submit button</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.w3schools.com/tags/att_input_type_password.asp" target="_blank"><a style="text-decoration:none" href="https://www.tutorialspoint.com/html/html_form_tag.htm" target="_blank"><B>&lt;INPUT type="password"&gt;</a></td>
+    <td style="color:darkblue">Generates a one-line password box</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.w3schools.com/tags/att_input_type_radio.asp" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/att_input_type_radio.asp" target="_blank"><b>&lt;INPUT type="radio"&gt;</a></td>
+    <td style="color:darkblue">Generates a radio button</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.w3schools.com/tags/att_input_type_text.asp" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/att_input_type_text.asp" target="_blank"><B>&lt;INPUT type="text"&gt;</a></td>
+    <td style="color:darkblue">Generates a Submit button (send form)</td>
+</tr>
+<tr>
+  <td style="color:gray"><a href="https://www.w3schools.com/tags/att_input_type_reset.asp" target="_blank"><a style="text-decoration:none" href="https://www.w3schools.com/tags/att_input_type_reset.asp" target="_blank"><B>&lt;INPUT type="reset"&gt;</a></td>
+    <td style="color:darkblue">Generates a Reset button (clear form)</td>
+</tr>
+  </table>
+  <br>
+  <br>
+  <a href="https://g.co/kgs/E4mkKz" target="_blank">
+  <img src="https://acumbamail.com/blog/wp-content/uploads/2014/10/maquetacion-email-html.png" width="1500px"></a>
+
+</body>
+</html>
